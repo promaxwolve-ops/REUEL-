@@ -1,0 +1,508 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Neddles Sewing Shop | Luxury Fabrics & Sewing Materials</title>
+
+    <meta name="description" content="Neddles Sewing Shop - Luxury fabrics, sewing materials and premium fashion materials in Nigeria.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            <span class="logo-icon">✦</span>
+            <div>
+                <h1>NEDDLES</h1>
+                <p>SEWING SHOP</p>
+            </div>
+        </div>
+
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#collections">Collections</a>
+            <a href="#materials">Sewing Materials</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO NEDDLES</p>
+
+            <h2>
+                Where Luxury
+                <span>Meets Fabric</span>
+            </h2>
+
+            <p class="hero-text">
+                Discover premium fabrics, beautiful sewing materials,
+                and everything you need to create extraordinary fashion.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#collections" class="btn gold-btn">
+                    Explore Collection
+                </a>
+
+                <a href="#contact" class="btn outline-btn">
+                    Contact Us
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+        <div class="feature">
+            <div class="feature-icon">✦</div>
+            <h3>Luxury Fabrics</h3>
+            <p>Premium fabrics selected for elegant fashion designs.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">✂</div>
+            <h3>Quality Materials</h3>
+            <p>Reliable sewing materials for professional designers.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">♕</div>
+            <h3>Elegant Style</h3>
+            <p>Materials that help you create beautiful and timeless outfits.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">♡</div>
+            <h3>Customer Care</h3>
+            <p>We are always ready to help you find what you need.</p>
+        </div>
+
+    </section>
+
+
+    <!-- ================= COLLECTIONS ================= -->
+
+    <section class="section" id="collections">
+
+        <div class="section-heading">
+
+            <p>OUR COLLECTION</p>
+
+            <h2>
+                Luxury Fabric
+                <span>Collections</span>
+            </h2>
+
+            <div class="gold-line"></div>
+
+            <p class="section-description">
+                Add elegance and personality to every outfit with our
+                beautiful selection of fabrics.
+            </p>
+
+        </div>
+
+
+        <div class="products">
+
+            <!-- PRODUCT 1 -->
+
+            <div class="product-card">
+
+                <div class="product-image fabric-one">
+                    <span class="product-tag">PREMIUM</span>
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Luxury Lace</h3>
+
+                    <p>
+                        Elegant lace fabrics perfect for weddings,
+                        parties and special occasions.
+                    </p>
+
+                    <button class="product-btn" onclick="showMessage('Luxury Lace')">
+                        Enquire Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 2 -->
+
+            <div class="product-card">
+
+                <div class="product-image fabric-two">
+                    <span class="product-tag">NEW</span>
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Premium Ankara</h3>
+
+                    <p>
+                        Beautiful Nigerian-inspired prints for
+                        stylish and confident fashion.
+                    </p>
+
+                    <button class="product-btn" onclick="showMessage('Premium Ankara')">
+                        Enquire Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 3 -->
+
+            <div class="product-card">
+
+                <div class="product-image fabric-three">
+                    <span class="product-tag">LUXURY</span>
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Silk & Satin</h3>
+
+                    <p>
+                        Smooth, luxurious fabrics designed for
+                        sophisticated fashion creations.
+                    </p>
+
+                    <button class="product-btn" onclick="showMessage('Silk & Satin')">
+                        Enquire Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BANNER ================= -->
+
+    <section class="luxury-banner">
+
+        <div class="banner-content">
+
+            <p>CREATE • DESIGN • INSPIRE</p>
+
+            <h2>
+                Your Fabric.
+                <span>Your Style.</span>
+            </h2>
+
+            <p>
+                Beautiful materials for beautiful creations.
+            </p>
+
+            <a href="#contact" class="btn gold-btn">
+                Shop With Us
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SEWING MATERIALS ================= -->
+
+    <section class="section materials-section" id="materials">
+
+        <div class="section-heading">
+
+            <p>FOR EVERY DESIGNER</p>
+
+            <h2>
+                Sewing
+                <span>Materials</span>
+            </h2>
+
+            <div class="gold-line"></div>
+
+        </div>
+
+
+        <div class="materials-grid">
+
+            <div class="material-card">
+                <div class="material-icon">🧵</div>
+                <h3>Threads</h3>
+                <p>Quality threads for different sewing projects.</p>
+            </div>
+
+            <div class="material-card">
+                <div class="material-icon">✂️</div>
+                <h3>Scissors</h3>
+                <p>Useful cutting tools for precise fashion work.</p>
+            </div>
+
+            <div class="material-card">
+                <div class="material-icon">📍</div>
+                <h3>Pins & Needles</h3>
+                <p>Essential tools for professional sewing.</p>
+            </div>
+
+            <div class="material-card">
+                <div class="material-icon">🎀</div>
+                <h3>Accessories</h3>
+                <p>Beautiful finishing materials for your designs.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <div class="about-decoration">
+                N
+            </div>
+        </div>
+
+        <div class="about-content">
+
+            <p class="small-title">ABOUT NEDDLES</p>
+
+            <h2>
+                Fabric That Makes
+                <span>Fashion Beautiful</span>
+            </h2>
+
+            <div class="gold-line left"></div>
+
+            <p>
+                At Neddles Sewing Shop, we believe that every beautiful
+                outfit starts with the right material.
+            </p>
+
+            <p>
+                We provide quality fabrics and sewing materials for
+                fashion designers, tailors, creative entrepreneurs,
+                bridal designers and anyone who loves beautiful fashion.
+            </p>
+
+            <p>
+                Whether you are creating a traditional Nigerian outfit,
+                an elegant gown or your next fashion masterpiece,
+                Neddles is here to help bring your vision to life.
+            </p>
+
+            <a href="#contact" class="btn pink-btn">
+                Talk To Us
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TESTIMONIAL ================= -->
+
+    <section class="testimonial">
+
+        <div class="section-heading">
+
+            <p>OUR PROMISE</p>
+
+            <h2>
+                Designed For
+                <span>Beautiful Creations</span>
+            </h2>
+
+            <div class="gold-line"></div>
+
+        </div>
+
+        <div class="quote">
+            <span>“</span>
+
+            <p>
+                Quality materials. Elegant fabrics.
+                Beautiful results.
+            </p>
+
+            <small>
+                — Neddles Sewing Shop
+            </small>
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+        <div class="contact-content">
+
+            <p class="small-title">GET IN TOUCH</p>
+
+            <h2>
+                Let's Create
+                <span>Something Beautiful</span>
+            </h2>
+
+            <div class="gold-line left"></div>
+
+            <p>
+                Looking for a particular fabric or sewing material?
+                Contact Neddles Sewing Shop today.
+            </p>
+
+
+            <div class="contact-boxes">
+
+                <div class="contact-box">
+
+                    <div class="contact-icon">☎</div>
+
+                    <div>
+                        <h3>Call Us</h3>
+
+                        <a href="tel:0804294409">
+                            0804294409
+                        </a>
+
+                        <a href="tel:0800384037">
+                            0800384037
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-box">
+
+                    <div class="contact-icon">✉</div>
+
+                    <div>
+                        <h3>Visit Our Shop</h3>
+                        <p>
+                            Come and explore our beautiful
+                            collection of fabrics and materials.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contact-buttons">
+
+                <a href="tel:0804294409" class="btn gold-btn">
+                    Call 0804294409
+                </a>
+
+                <a href="tel:0800384037" class="btn pink-btn">
+                    Call 0800384037
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+
+            <span>✦</span>
+
+            <div>
+                <h2>NEDDLES</h2>
+                <p>SEWING SHOP</p>
+            </div>
+
+        </div>
+
+        <p class="footer-text">
+            Luxury fabrics • Sewing materials • Beautiful creations
+        </p>
+
+        <div class="footer-line"></div>
+
+        <p class="copyright">
+            © 2026 Neddles Sewing Shop. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= POPUP ================= -->
+
+    <div class="popup" id="popup">
+
+        <div class="popup-content">
+
+            <button class="close-popup" onclick="closeMessage()">
+                ×
+            </button>
+
+            <div class="popup-icon">✦</div>
+
+            <h2>Thank You!</h2>
+
+            <p id="popupText">
+                Please contact Neddles Sewing Shop for more information.
+            </p>
+
+            <div class="popup-phone">
+                <a href="tel:0804294409">0804294409</a>
+                <a href="tel:0800384037">0800384037</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
